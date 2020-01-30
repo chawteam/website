@@ -1,4 +1,4 @@
-baseurl = "https://chawteam.xyz"
+baseurl = "https://chawteam.github.io"
 title = "CHAWTeam"
 theme = "hugo-universal-theme"
 languageCode = "zh-tw"
