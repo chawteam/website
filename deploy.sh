@@ -3,6 +3,13 @@
 # If a command fails then the deploy stops
 set -e
 
+cd public
+
+echo "pull origin"
+git pull origin master
+
+cd ..
+
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
 # Build the project.
